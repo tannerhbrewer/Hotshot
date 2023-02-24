@@ -56,11 +56,12 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Framework\Input\Controls.cs" />
-    <Compile Include="Assets\Framework\Input\InputManager.cs" />
-    <Compile Include="Assets\Framework\Helpers\Singletons.cs" />
-    <Compile Include="Assets\Framework\Helpers\Persistent.cs" />
     <Compile Include="Assets\Hotshot\Code\HotshotMovement.cs" />
+    <Compile Include="Assets\Framework\Helpers\Persistent.cs" />
+    <Compile Include="Assets\Framework\Input\Controls.cs" />
+    <Compile Include="Assets\Framework\Helpers\Singletons.cs" />
+    <Compile Include="Assets\Framework\Input\InputManager.cs" />
+    <Compile Include="Assets\Hotshot\Code\HotshotCamera.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -753,6 +754,9 @@
     <Reference Include="Unity.2D.IK.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="tanerhbrewer.tools">
+      <HintPath>Library\ScriptAssemblies\tanerhbrewer.tools.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
     </Reference>
@@ -779,9 +783,6 @@
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="tanerhbrewer.tools">
-      <HintPath>Library\ScriptAssemblies\tanerhbrewer.tools.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

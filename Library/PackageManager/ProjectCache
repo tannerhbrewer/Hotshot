@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638127985833061222
-    m_Hash: 1452883311
+      ticks: 638128001446387229
+    m_Hash: 2786846862
   m_LockFileStatus:
     m_FilePath: C:/Dev/Hotshot/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638127985833150674
-    m_Hash: 3680505145
+      ticks: 638128001446387229
+    m_Hash: 662164468
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

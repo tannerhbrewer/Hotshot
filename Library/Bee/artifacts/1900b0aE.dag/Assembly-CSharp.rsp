@@ -359,6 +359,7 @@
 "Assets/Framework/Helpers/Singletons.cs"
 "Assets/Framework/Input/Controls.cs"
 "Assets/Framework/Input/InputManager.cs"
+"Assets/Hotshot/Code/HotshotCamera.cs"
 "Assets/Hotshot/Code/HotshotMovement.cs"
 -langversion:9.0
 
