@@ -355,11 +355,17 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Framework/Events/InteractEvent.cs"
 "Assets/Framework/Helpers/Persistent.cs"
 "Assets/Framework/Helpers/Singletons.cs"
+"Assets/Framework/Helpers/Subject.cs"
 "Assets/Framework/Input/Controls.cs"
 "Assets/Framework/Input/InputManager.cs"
+"Assets/Framework/Interfaces/IInteractable.cs"
+"Assets/Framework/Interfaces/IObserver.cs"
+"Assets/Game/Scripts/Interactions/ChestInteraction.cs"
 "Assets/Hotshot/Code/HotshotCamera.cs"
+"Assets/Hotshot/Code/HotshotInteraction.cs"
 "Assets/Hotshot/Code/HotshotMovement.cs"
 -langversion:9.0
 

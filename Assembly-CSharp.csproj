@@ -60,8 +60,14 @@
     <Compile Include="Assets\Framework\Helpers\Persistent.cs" />
     <Compile Include="Assets\Framework\Input\Controls.cs" />
     <Compile Include="Assets\Framework\Helpers\Singletons.cs" />
-    <Compile Include="Assets\Framework\Input\InputManager.cs" />
     <Compile Include="Assets\Hotshot\Code\HotshotCamera.cs" />
+    <Compile Include="Assets\Framework\Input\InputManager.cs" />
+    <Compile Include="Assets\Hotshot\Code\HotshotInteraction.cs" />
+    <Compile Include="Assets\Framework\Helpers\Subject.cs" />
+    <Compile Include="Assets\Framework\Interfaces\IObserver.cs" />
+    <Compile Include="Assets\Framework\Events\InteractEvent.cs" />
+    <Compile Include="Assets\Framework\Interfaces\IInteractable.cs" />
+    <Compile Include="Assets\Game\Scripts\Interactions\ChestInteraction.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

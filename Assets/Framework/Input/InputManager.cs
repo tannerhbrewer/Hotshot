@@ -9,11 +9,16 @@ namespace Hotshot
     public class InputManager : StaticInstance<InputManager> {
 
         private Controls controls;
+
+        public InteractEvent interactEvent { get; private set; }
         
         public Vector2 Movement { get; private set; }
 
         override protected void Awake() {
             base.Awake();
+
+            interactEvent = new InteractEvent();
+
             controls = new Controls();
         }
 
@@ -22,6 +27,8 @@ namespace Hotshot
 
             controls.Gameplay.Movement.performed += ctx => Movement = ctx.ReadValue<Vector2>();
             controls.Gameplay.Movement.canceled += ctx => Movement = ctx.ReadValue<Vector2>();
+
+            controls.Gameplay.Interact.performed += ctx => interactEvent.Notify();
         }
 
         private void OnDisable() {
@@ -29,11 +36,10 @@ namespace Hotshot
 
             controls.Gameplay.Movement.performed -= ctx => Movement = ctx.ReadValue<Vector2>();
             controls.Gameplay.Movement.canceled -= ctx => Movement = ctx.ReadValue<Vector2>();
-        }
 
-        private void Update() {
-            
+            controls.Gameplay.Interact.performed -= ctx => interactEvent.Notify();
         }
 
     }
+
 }
